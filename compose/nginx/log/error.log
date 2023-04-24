@@ -1,0 +1,1283 @@
+2023/04/22 14:08:24 [notice] 1#1: using the "epoll" event method
+2023/04/22 14:08:24 [notice] 1#1: nginx/1.23.3
+2023/04/22 14:08:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 14:08:24 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 14:08:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 14:08:24 [notice] 1#1: start worker processes
+2023/04/22 14:08:24 [notice] 1#1: start worker process 21
+2023/04/22 14:08:24 [notice] 1#1: start worker process 22
+2023/04/22 14:08:24 [notice] 1#1: start worker process 23
+2023/04/22 14:08:24 [notice] 1#1: start worker process 24
+2023/04/22 14:08:24 [notice] 1#1: start worker process 25
+2023/04/22 14:08:24 [notice] 1#1: start worker process 26
+2023/04/22 14:08:24 [notice] 1#1: start worker process 27
+2023/04/22 14:08:24 [notice] 1#1: start worker process 28
+2023/04/22 14:08:38 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET /api/admin/?page=1 HTTP/1.1", upstream: "uwsgi://192.168.128.3:8000", host: "localhost", referrer: "http://localhost/manage/admin"
+2023/04/22 14:09:20 [error] 24#24: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET /api/admin/?page=1 HTTP/1.1", upstream: "uwsgi://192.168.128.3:8000", host: "localhost", referrer: "http://localhost/manage/admin"
+2023/04/22 14:09:27 [error] 24#24: *6 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET /api/admin/?page=1 HTTP/1.1", upstream: "uwsgi://192.168.128.3:8000", host: "localhost", referrer: "http://localhost/manage/admin"
+2023/04/22 14:09:38 [error] 26#26: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://192.168.128.3:8000", host: "localhost"
+2023/04/22 14:09:41 [error] 26#26: *10 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://192.168.128.3:8000", host: "localhost"
+2023/04/22 14:09:53 [error] 27#27: *13 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.128.1, server: localhost, request: "GET /admin/list/ HTTP/1.1", upstream: "uwsgi://192.168.128.3:8000", host: "127.0.0.1:80"
+2023/04/22 14:12:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 14:12:27 [notice] 21#21: gracefully shutting down
+2023/04/22 14:12:27 [notice] 21#21: exiting
+2023/04/22 14:12:27 [notice] 25#25: gracefully shutting down
+2023/04/22 14:12:27 [notice] 22#22: gracefully shutting down
+2023/04/22 14:12:27 [notice] 23#23: gracefully shutting down
+2023/04/22 14:12:27 [notice] 24#24: gracefully shutting down
+2023/04/22 14:12:27 [notice] 24#24: exiting
+2023/04/22 14:12:27 [notice] 26#26: gracefully shutting down
+2023/04/22 14:12:27 [notice] 28#28: gracefully shutting down
+2023/04/22 14:12:27 [notice] 27#27: gracefully shutting down
+2023/04/22 14:12:27 [notice] 21#21: exit
+2023/04/22 14:12:27 [notice] 25#25: exiting
+2023/04/22 14:12:27 [notice] 22#22: exiting
+2023/04/22 14:12:27 [notice] 23#23: exiting
+2023/04/22 14:12:27 [notice] 24#24: exit
+2023/04/22 14:12:27 [notice] 26#26: exiting
+2023/04/22 14:12:27 [notice] 28#28: exiting
+2023/04/22 14:12:27 [notice] 27#27: exiting
+2023/04/22 14:12:27 [notice] 25#25: exit
+2023/04/22 14:12:27 [notice] 22#22: exit
+2023/04/22 14:12:27 [notice] 23#23: exit
+2023/04/22 14:12:27 [notice] 26#26: exit
+2023/04/22 14:12:27 [notice] 28#28: exit
+2023/04/22 14:12:27 [notice] 27#27: exit
+2023/04/22 14:12:27 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 14:12:27 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 14:12:27 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 14:12:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:12:27 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 14:12:27 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 14:12:27 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 14:12:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:12:27 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/04/22 14:12:27 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 14:12:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:12:27 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/04/22 14:12:27 [notice] 1#1: worker process 28 exited with code 0
+2023/04/22 14:12:27 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:12:27 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/22 14:12:27 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 14:12:27 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 14:12:27 [notice] 1#1: exit
+2023/04/22 14:14:56 [notice] 1#1: using the "epoll" event method
+2023/04/22 14:14:56 [notice] 1#1: nginx/1.23.3
+2023/04/22 14:14:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 14:14:56 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 14:14:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 14:14:56 [notice] 1#1: start worker processes
+2023/04/22 14:14:56 [notice] 1#1: start worker process 20
+2023/04/22 14:14:56 [notice] 1#1: start worker process 21
+2023/04/22 14:14:56 [notice] 1#1: start worker process 22
+2023/04/22 14:14:56 [notice] 1#1: start worker process 23
+2023/04/22 14:14:56 [notice] 1#1: start worker process 24
+2023/04/22 14:14:56 [notice] 1#1: start worker process 25
+2023/04/22 14:14:56 [notice] 1#1: start worker process 26
+2023/04/22 14:14:56 [notice] 1#1: start worker process 27
+2023/04/22 14:17:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 14:17:41 [notice] 20#20: gracefully shutting down
+2023/04/22 14:17:41 [notice] 20#20: exiting
+2023/04/22 14:17:41 [notice] 22#22: gracefully shutting down
+2023/04/22 14:17:41 [notice] 23#23: gracefully shutting down
+2023/04/22 14:17:41 [notice] 23#23: exiting
+2023/04/22 14:17:41 [notice] 24#24: gracefully shutting down
+2023/04/22 14:17:41 [notice] 25#25: gracefully shutting down
+2023/04/22 14:17:41 [notice] 21#21: gracefully shutting down
+2023/04/22 14:17:41 [notice] 26#26: gracefully shutting down
+2023/04/22 14:17:41 [notice] 27#27: gracefully shutting down
+2023/04/22 14:17:41 [notice] 20#20: exit
+2023/04/22 14:17:41 [notice] 22#22: exiting
+2023/04/22 14:17:41 [notice] 23#23: exit
+2023/04/22 14:17:41 [notice] 24#24: exiting
+2023/04/22 14:17:41 [notice] 25#25: exiting
+2023/04/22 14:17:41 [notice] 21#21: exiting
+2023/04/22 14:17:41 [notice] 26#26: exiting
+2023/04/22 14:17:41 [notice] 27#27: exiting
+2023/04/22 14:17:41 [notice] 22#22: exit
+2023/04/22 14:17:41 [notice] 24#24: exit
+2023/04/22 14:17:41 [notice] 25#25: exit
+2023/04/22 14:17:41 [notice] 21#21: exit
+2023/04/22 14:17:41 [notice] 26#26: exit
+2023/04/22 14:17:41 [notice] 27#27: exit
+2023/04/22 14:17:41 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 14:17:41 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 14:17:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:17:41 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 14:17:41 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 14:17:41 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 14:17:41 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 14:17:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:17:41 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/04/22 14:17:41 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 14:17:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:17:41 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/22 14:17:41 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 14:17:41 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 14:17:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:17:41 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/22 14:17:41 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/22 14:17:41 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 14:17:41 [notice] 1#1: exit
+2023/04/22 14:19:50 [notice] 1#1: using the "epoll" event method
+2023/04/22 14:19:50 [notice] 1#1: nginx/1.23.3
+2023/04/22 14:19:50 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 14:19:50 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 14:19:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 14:19:50 [notice] 1#1: start worker processes
+2023/04/22 14:19:50 [notice] 1#1: start worker process 20
+2023/04/22 14:19:50 [notice] 1#1: start worker process 21
+2023/04/22 14:19:50 [notice] 1#1: start worker process 22
+2023/04/22 14:19:50 [notice] 1#1: start worker process 23
+2023/04/22 14:19:50 [notice] 1#1: start worker process 24
+2023/04/22 14:19:50 [notice] 1#1: start worker process 25
+2023/04/22 14:19:50 [notice] 1#1: start worker process 26
+2023/04/22 14:19:50 [notice] 1#1: start worker process 27
+2023/04/22 14:20:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 14:20:55 [notice] 20#20: gracefully shutting down
+2023/04/22 14:20:55 [notice] 23#23: gracefully shutting down
+2023/04/22 14:20:55 [notice] 23#23: exiting
+2023/04/22 14:20:55 [notice] 21#21: gracefully shutting down
+2023/04/22 14:20:55 [notice] 25#25: gracefully shutting down
+2023/04/22 14:20:55 [notice] 27#27: gracefully shutting down
+2023/04/22 14:20:55 [notice] 26#26: gracefully shutting down
+2023/04/22 14:20:55 [notice] 22#22: gracefully shutting down
+2023/04/22 14:20:55 [notice] 24#24: gracefully shutting down
+2023/04/22 14:20:55 [notice] 20#20: exiting
+2023/04/22 14:20:55 [notice] 23#23: exit
+2023/04/22 14:20:55 [notice] 21#21: exiting
+2023/04/22 14:20:55 [notice] 25#25: exiting
+2023/04/22 14:20:55 [notice] 27#27: exiting
+2023/04/22 14:20:55 [notice] 26#26: exiting
+2023/04/22 14:20:55 [notice] 22#22: exiting
+2023/04/22 14:20:55 [notice] 24#24: exiting
+2023/04/22 14:20:55 [notice] 20#20: exit
+2023/04/22 14:20:55 [notice] 21#21: exit
+2023/04/22 14:20:55 [notice] 25#25: exit
+2023/04/22 14:20:55 [notice] 27#27: exit
+2023/04/22 14:20:55 [notice] 26#26: exit
+2023/04/22 14:20:55 [notice] 22#22: exit
+2023/04/22 14:20:55 [notice] 24#24: exit
+2023/04/22 14:20:55 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 14:20:55 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 14:20:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:20:55 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 14:20:55 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 14:20:55 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 14:20:55 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 14:20:55 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 14:20:55 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 14:20:55 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 14:20:55 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:20:55 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/22 14:20:55 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/22 14:20:55 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 14:20:55 [notice] 1#1: exit
+2023/04/22 14:34:22 [notice] 1#1: using the "epoll" event method
+2023/04/22 14:34:22 [notice] 1#1: nginx/1.23.3
+2023/04/22 14:34:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 14:34:22 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 14:34:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 14:34:22 [notice] 1#1: start worker processes
+2023/04/22 14:34:22 [notice] 1#1: start worker process 20
+2023/04/22 14:34:22 [notice] 1#1: start worker process 21
+2023/04/22 14:34:22 [notice] 1#1: start worker process 22
+2023/04/22 14:34:22 [notice] 1#1: start worker process 23
+2023/04/22 14:34:22 [notice] 1#1: start worker process 24
+2023/04/22 14:34:22 [notice] 1#1: start worker process 25
+2023/04/22 14:34:22 [notice] 1#1: start worker process 26
+2023/04/22 14:34:22 [notice] 1#1: start worker process 27
+2023/04/22 14:40:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 14:40:48 [notice] 20#20: gracefully shutting down
+2023/04/22 14:40:48 [notice] 21#21: gracefully shutting down
+2023/04/22 14:40:48 [notice] 22#22: gracefully shutting down
+2023/04/22 14:40:48 [notice] 23#23: gracefully shutting down
+2023/04/22 14:40:48 [notice] 24#24: gracefully shutting down
+2023/04/22 14:40:48 [notice] 25#25: gracefully shutting down
+2023/04/22 14:40:48 [notice] 26#26: gracefully shutting down
+2023/04/22 14:40:48 [notice] 27#27: gracefully shutting down
+2023/04/22 14:40:48 [notice] 20#20: exiting
+2023/04/22 14:40:48 [notice] 21#21: exiting
+2023/04/22 14:40:48 [notice] 22#22: exiting
+2023/04/22 14:40:48 [notice] 23#23: exiting
+2023/04/22 14:40:48 [notice] 24#24: exiting
+2023/04/22 14:40:48 [notice] 25#25: exiting
+2023/04/22 14:40:48 [notice] 26#26: exiting
+2023/04/22 14:40:48 [notice] 27#27: exiting
+2023/04/22 14:40:48 [notice] 20#20: exit
+2023/04/22 14:40:48 [notice] 21#21: exit
+2023/04/22 14:40:48 [notice] 22#22: exit
+2023/04/22 14:40:48 [notice] 23#23: exit
+2023/04/22 14:40:48 [notice] 24#24: exit
+2023/04/22 14:40:48 [notice] 25#25: exit
+2023/04/22 14:40:48 [notice] 26#26: exit
+2023/04/22 14:40:48 [notice] 27#27: exit
+2023/04/22 14:40:48 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 14:40:48 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 14:40:48 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 14:40:48 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 14:40:48 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 14:40:48 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:40:48 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/22 14:40:48 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 14:40:48 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 14:40:48 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 14:40:48 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 14:40:48 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 14:40:48 [notice] 1#1: exit
+2023/04/22 14:44:12 [notice] 1#1: using the "epoll" event method
+2023/04/22 14:44:12 [notice] 1#1: nginx/1.23.3
+2023/04/22 14:44:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 14:44:12 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 14:44:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 14:44:12 [notice] 1#1: start worker processes
+2023/04/22 14:44:12 [notice] 1#1: start worker process 20
+2023/04/22 14:44:12 [notice] 1#1: start worker process 21
+2023/04/22 14:44:12 [notice] 1#1: start worker process 22
+2023/04/22 14:44:12 [notice] 1#1: start worker process 23
+2023/04/22 14:44:12 [notice] 1#1: start worker process 24
+2023/04/22 14:44:12 [notice] 1#1: start worker process 25
+2023/04/22 14:44:12 [notice] 1#1: start worker process 26
+2023/04/22 14:44:12 [notice] 1#1: start worker process 27
+2023/04/22 14:51:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 14:51:47 [notice] 21#21: gracefully shutting down
+2023/04/22 14:51:47 [notice] 20#20: gracefully shutting down
+2023/04/22 14:51:47 [notice] 20#20: exiting
+2023/04/22 14:51:47 [notice] 23#23: gracefully shutting down
+2023/04/22 14:51:47 [notice] 24#24: gracefully shutting down
+2023/04/22 14:51:47 [notice] 22#22: gracefully shutting down
+2023/04/22 14:51:47 [notice] 27#27: gracefully shutting down
+2023/04/22 14:51:47 [notice] 25#25: gracefully shutting down
+2023/04/22 14:51:47 [notice] 26#26: gracefully shutting down
+2023/04/22 14:51:47 [notice] 21#21: exiting
+2023/04/22 14:51:47 [notice] 20#20: exit
+2023/04/22 14:51:47 [notice] 23#23: exiting
+2023/04/22 14:51:47 [notice] 24#24: exiting
+2023/04/22 14:51:47 [notice] 22#22: exiting
+2023/04/22 14:51:47 [notice] 27#27: exiting
+2023/04/22 14:51:47 [notice] 25#25: exiting
+2023/04/22 14:51:47 [notice] 26#26: exiting
+2023/04/22 14:51:47 [notice] 21#21: exit
+2023/04/22 14:51:47 [notice] 23#23: exit
+2023/04/22 14:51:47 [notice] 24#24: exit
+2023/04/22 14:51:47 [notice] 22#22: exit
+2023/04/22 14:51:47 [notice] 27#27: exit
+2023/04/22 14:51:47 [notice] 25#25: exit
+2023/04/22 14:51:47 [notice] 26#26: exit
+2023/04/22 14:51:47 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/22 14:51:47 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 14:51:47 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 14:51:47 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 14:51:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:51:47 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/04/22 14:51:47 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 14:51:47 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 14:51:47 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 14:51:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 14:51:47 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/22 14:51:47 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 14:51:47 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 14:51:47 [notice] 1#1: exit
+2023/04/22 14:52:10 [notice] 1#1: using the "epoll" event method
+2023/04/22 14:52:10 [notice] 1#1: nginx/1.23.3
+2023/04/22 14:52:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 14:52:10 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 14:52:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 14:52:10 [notice] 1#1: start worker processes
+2023/04/22 14:52:10 [notice] 1#1: start worker process 20
+2023/04/22 14:52:10 [notice] 1#1: start worker process 21
+2023/04/22 14:52:10 [notice] 1#1: start worker process 22
+2023/04/22 14:52:10 [notice] 1#1: start worker process 23
+2023/04/22 14:52:10 [notice] 1#1: start worker process 24
+2023/04/22 14:52:10 [notice] 1#1: start worker process 25
+2023/04/22 14:52:10 [notice] 1#1: start worker process 26
+2023/04/22 14:52:10 [notice] 1#1: start worker process 27
+2023/04/22 15:03:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 15:03:46 [notice] 20#20: gracefully shutting down
+2023/04/22 15:03:46 [notice] 21#21: gracefully shutting down
+2023/04/22 15:03:46 [notice] 23#23: gracefully shutting down
+2023/04/22 15:03:46 [notice] 22#22: gracefully shutting down
+2023/04/22 15:03:46 [notice] 24#24: gracefully shutting down
+2023/04/22 15:03:46 [notice] 25#25: gracefully shutting down
+2023/04/22 15:03:46 [notice] 26#26: gracefully shutting down
+2023/04/22 15:03:46 [notice] 27#27: gracefully shutting down
+2023/04/22 15:03:46 [notice] 20#20: exiting
+2023/04/22 15:03:46 [notice] 21#21: exiting
+2023/04/22 15:03:46 [notice] 23#23: exiting
+2023/04/22 15:03:46 [notice] 22#22: exiting
+2023/04/22 15:03:46 [notice] 24#24: exiting
+2023/04/22 15:03:46 [notice] 25#25: exiting
+2023/04/22 15:03:46 [notice] 26#26: exiting
+2023/04/22 15:03:46 [notice] 27#27: exiting
+2023/04/22 15:03:46 [notice] 20#20: exit
+2023/04/22 15:03:46 [notice] 21#21: exit
+2023/04/22 15:03:46 [notice] 23#23: exit
+2023/04/22 15:03:46 [notice] 22#22: exit
+2023/04/22 15:03:46 [notice] 24#24: exit
+2023/04/22 15:03:46 [notice] 25#25: exit
+2023/04/22 15:03:46 [notice] 26#26: exit
+2023/04/22 15:03:46 [notice] 27#27: exit
+2023/04/22 15:03:47 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 15:03:47 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 15:03:47 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 15:03:47 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 15:03:47 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 15:03:47 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 15:03:47 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 15:03:47 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 15:03:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 15:03:47 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 15:03:47 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 15:03:47 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 15:03:47 [notice] 1#1: exit
+2023/04/22 15:06:30 [notice] 1#1: using the "epoll" event method
+2023/04/22 15:06:30 [notice] 1#1: nginx/1.23.3
+2023/04/22 15:06:30 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 15:06:30 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 15:06:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 15:06:30 [notice] 1#1: start worker processes
+2023/04/22 15:06:30 [notice] 1#1: start worker process 20
+2023/04/22 15:06:30 [notice] 1#1: start worker process 21
+2023/04/22 15:06:30 [notice] 1#1: start worker process 22
+2023/04/22 15:06:30 [notice] 1#1: start worker process 23
+2023/04/22 15:06:30 [notice] 1#1: start worker process 24
+2023/04/22 15:06:30 [notice] 1#1: start worker process 25
+2023/04/22 15:06:30 [notice] 1#1: start worker process 26
+2023/04/22 15:06:30 [notice] 1#1: start worker process 27
+2023/04/22 15:10:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 15:10:44 [notice] 21#21: gracefully shutting down
+2023/04/22 15:10:44 [notice] 24#24: gracefully shutting down
+2023/04/22 15:10:44 [notice] 25#25: gracefully shutting down
+2023/04/22 15:10:44 [notice] 23#23: gracefully shutting down
+2023/04/22 15:10:44 [notice] 26#26: gracefully shutting down
+2023/04/22 15:10:44 [notice] 22#22: gracefully shutting down
+2023/04/22 15:10:44 [notice] 27#27: gracefully shutting down
+2023/04/22 15:10:44 [notice] 20#20: gracefully shutting down
+2023/04/22 15:10:44 [notice] 21#21: exiting
+2023/04/22 15:10:44 [notice] 24#24: exiting
+2023/04/22 15:10:44 [notice] 25#25: exiting
+2023/04/22 15:10:44 [notice] 23#23: exiting
+2023/04/22 15:10:44 [notice] 26#26: exiting
+2023/04/22 15:10:44 [notice] 22#22: exiting
+2023/04/22 15:10:44 [notice] 27#27: exiting
+2023/04/22 15:10:44 [notice] 20#20: exiting
+2023/04/22 15:10:44 [notice] 21#21: exit
+2023/04/22 15:10:44 [notice] 24#24: exit
+2023/04/22 15:10:44 [notice] 25#25: exit
+2023/04/22 15:10:44 [notice] 23#23: exit
+2023/04/22 15:10:44 [notice] 26#26: exit
+2023/04/22 15:10:44 [notice] 22#22: exit
+2023/04/22 15:10:44 [notice] 27#27: exit
+2023/04/22 15:10:44 [notice] 20#20: exit
+2023/04/22 15:10:44 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 15:10:44 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 15:10:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 15:10:44 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/22 15:10:44 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 15:10:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 15:10:44 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/22 15:10:44 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 15:10:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 15:10:44 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/22 15:10:44 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 15:10:44 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 15:10:44 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 15:10:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/22 15:10:44 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 15:10:44 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 15:10:44 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 15:10:44 [notice] 1#1: exit
+2023/04/22 15:11:09 [notice] 1#1: using the "epoll" event method
+2023/04/22 15:11:09 [notice] 1#1: nginx/1.23.3
+2023/04/22 15:11:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 15:11:09 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 15:11:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 15:11:09 [notice] 1#1: start worker processes
+2023/04/22 15:11:09 [notice] 1#1: start worker process 20
+2023/04/22 15:11:09 [notice] 1#1: start worker process 21
+2023/04/22 15:11:09 [notice] 1#1: start worker process 22
+2023/04/22 15:11:09 [notice] 1#1: start worker process 23
+2023/04/22 15:11:09 [notice] 1#1: start worker process 24
+2023/04/22 15:11:09 [notice] 1#1: start worker process 25
+2023/04/22 15:11:09 [notice] 1#1: start worker process 26
+2023/04/22 15:11:09 [notice] 1#1: start worker process 27
+2023/04/22 15:12:22 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 15:12:22 [notice] 20#20: gracefully shutting down
+2023/04/22 15:12:22 [notice] 21#21: gracefully shutting down
+2023/04/22 15:12:22 [notice] 24#24: gracefully shutting down
+2023/04/22 15:12:22 [notice] 26#26: gracefully shutting down
+2023/04/22 15:12:22 [notice] 26#26: exiting
+2023/04/22 15:12:22 [notice] 25#25: gracefully shutting down
+2023/04/22 15:12:22 [notice] 23#23: gracefully shutting down
+2023/04/22 15:12:22 [notice] 27#27: gracefully shutting down
+2023/04/22 15:12:22 [notice] 22#22: gracefully shutting down
+2023/04/22 15:12:22 [notice] 20#20: exiting
+2023/04/22 15:12:22 [notice] 21#21: exiting
+2023/04/22 15:12:22 [notice] 24#24: exiting
+2023/04/22 15:12:22 [notice] 26#26: exit
+2023/04/22 15:12:22 [notice] 25#25: exiting
+2023/04/22 15:12:22 [notice] 23#23: exiting
+2023/04/22 15:12:22 [notice] 27#27: exiting
+2023/04/22 15:12:22 [notice] 22#22: exiting
+2023/04/22 15:12:22 [notice] 20#20: exit
+2023/04/22 15:12:22 [notice] 21#21: exit
+2023/04/22 15:12:22 [notice] 24#24: exit
+2023/04/22 15:12:22 [notice] 25#25: exit
+2023/04/22 15:12:22 [notice] 23#23: exit
+2023/04/22 15:12:22 [notice] 27#27: exit
+2023/04/22 15:12:22 [notice] 22#22: exit
+2023/04/22 15:12:23 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 15:12:23 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 15:12:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 15:12:23 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/04/22 15:12:23 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 15:12:23 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 15:12:23 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 15:12:23 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 15:12:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 15:12:23 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/22 15:12:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 15:12:23 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 15:12:23 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 15:12:23 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 15:12:23 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/22 15:12:23 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 15:12:23 [notice] 1#1: exit
+2023/04/22 15:31:56 [notice] 1#1: using the "epoll" event method
+2023/04/22 15:31:56 [notice] 1#1: nginx/1.23.3
+2023/04/22 15:31:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 15:31:56 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 15:31:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 15:31:56 [notice] 1#1: start worker processes
+2023/04/22 15:31:56 [notice] 1#1: start worker process 20
+2023/04/22 15:31:56 [notice] 1#1: start worker process 21
+2023/04/22 15:31:56 [notice] 1#1: start worker process 22
+2023/04/22 15:31:56 [notice] 1#1: start worker process 23
+2023/04/22 15:31:56 [notice] 1#1: start worker process 24
+2023/04/22 15:31:56 [notice] 1#1: start worker process 25
+2023/04/22 15:31:56 [notice] 1#1: start worker process 26
+2023/04/22 15:31:56 [notice] 1#1: start worker process 27
+2023/04/22 16:11:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 16:11:24 [notice] 20#20: gracefully shutting down
+2023/04/22 16:11:24 [notice] 21#21: gracefully shutting down
+2023/04/22 16:11:24 [notice] 26#26: gracefully shutting down
+2023/04/22 16:11:24 [notice] 23#23: gracefully shutting down
+2023/04/22 16:11:24 [notice] 22#22: gracefully shutting down
+2023/04/22 16:11:24 [notice] 25#25: gracefully shutting down
+2023/04/22 16:11:24 [notice] 27#27: gracefully shutting down
+2023/04/22 16:11:24 [notice] 24#24: gracefully shutting down
+2023/04/22 16:11:24 [notice] 20#20: exiting
+2023/04/22 16:11:24 [notice] 21#21: exiting
+2023/04/22 16:11:24 [notice] 26#26: exiting
+2023/04/22 16:11:24 [notice] 23#23: exiting
+2023/04/22 16:11:24 [notice] 22#22: exiting
+2023/04/22 16:11:24 [notice] 25#25: exiting
+2023/04/22 16:11:24 [notice] 27#27: exiting
+2023/04/22 16:11:24 [notice] 24#24: exiting
+2023/04/22 16:11:24 [notice] 20#20: exit
+2023/04/22 16:11:24 [notice] 21#21: exit
+2023/04/22 16:11:24 [notice] 26#26: exit
+2023/04/22 16:11:24 [notice] 23#23: exit
+2023/04/22 16:11:24 [notice] 22#22: exit
+2023/04/22 16:11:24 [notice] 25#25: exit
+2023/04/22 16:11:24 [notice] 27#27: exit
+2023/04/22 16:11:24 [notice] 24#24: exit
+2023/04/22 16:11:24 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 16:11:24 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 16:11:24 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 16:11:24 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 16:11:24 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 16:11:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:11:24 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/22 16:11:24 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 16:11:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:11:24 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 16:11:24 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 16:11:24 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:11:24 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/22 16:11:24 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 16:11:24 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 16:11:24 [notice] 1#1: exit
+2023/04/22 16:13:03 [notice] 1#1: using the "epoll" event method
+2023/04/22 16:13:03 [notice] 1#1: nginx/1.23.3
+2023/04/22 16:13:03 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 16:13:03 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 16:13:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 16:13:03 [notice] 1#1: start worker processes
+2023/04/22 16:13:03 [notice] 1#1: start worker process 20
+2023/04/22 16:13:03 [notice] 1#1: start worker process 21
+2023/04/22 16:13:03 [notice] 1#1: start worker process 22
+2023/04/22 16:13:03 [notice] 1#1: start worker process 23
+2023/04/22 16:13:03 [notice] 1#1: start worker process 24
+2023/04/22 16:13:03 [notice] 1#1: start worker process 25
+2023/04/22 16:13:03 [notice] 1#1: start worker process 26
+2023/04/22 16:13:03 [notice] 1#1: start worker process 27
+2023/04/22 16:13:49 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 16:13:49 [notice] 20#20: gracefully shutting down
+2023/04/22 16:13:49 [notice] 21#21: gracefully shutting down
+2023/04/22 16:13:49 [notice] 22#22: gracefully shutting down
+2023/04/22 16:13:49 [notice] 23#23: gracefully shutting down
+2023/04/22 16:13:49 [notice] 25#25: gracefully shutting down
+2023/04/22 16:13:49 [notice] 24#24: gracefully shutting down
+2023/04/22 16:13:49 [notice] 26#26: gracefully shutting down
+2023/04/22 16:13:49 [notice] 27#27: gracefully shutting down
+2023/04/22 16:13:49 [notice] 20#20: exiting
+2023/04/22 16:13:49 [notice] 21#21: exiting
+2023/04/22 16:13:49 [notice] 22#22: exiting
+2023/04/22 16:13:49 [notice] 23#23: exiting
+2023/04/22 16:13:49 [notice] 25#25: exiting
+2023/04/22 16:13:49 [notice] 24#24: exiting
+2023/04/22 16:13:49 [notice] 26#26: exiting
+2023/04/22 16:13:49 [notice] 27#27: exiting
+2023/04/22 16:13:49 [notice] 20#20: exit
+2023/04/22 16:13:49 [notice] 21#21: exit
+2023/04/22 16:13:49 [notice] 22#22: exit
+2023/04/22 16:13:49 [notice] 23#23: exit
+2023/04/22 16:13:49 [notice] 25#25: exit
+2023/04/22 16:13:49 [notice] 24#24: exit
+2023/04/22 16:13:49 [notice] 26#26: exit
+2023/04/22 16:13:49 [notice] 27#27: exit
+2023/04/22 16:13:50 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 16:13:50 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 16:13:50 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 16:13:50 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 16:13:50 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 16:13:50 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 16:13:50 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 16:13:50 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 16:13:50 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 16:13:50 [notice] 1#1: exit
+2023/04/22 16:15:48 [notice] 1#1: using the "epoll" event method
+2023/04/22 16:15:48 [notice] 1#1: nginx/1.23.3
+2023/04/22 16:15:48 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 16:15:48 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 16:15:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 16:15:48 [notice] 1#1: start worker processes
+2023/04/22 16:15:48 [notice] 1#1: start worker process 21
+2023/04/22 16:15:48 [notice] 1#1: start worker process 22
+2023/04/22 16:15:48 [notice] 1#1: start worker process 23
+2023/04/22 16:15:48 [notice] 1#1: start worker process 24
+2023/04/22 16:15:48 [notice] 1#1: start worker process 25
+2023/04/22 16:15:48 [notice] 1#1: start worker process 26
+2023/04/22 16:15:48 [notice] 1#1: start worker process 27
+2023/04/22 16:15:48 [notice] 1#1: start worker process 28
+2023/04/22 16:19:47 [error] 21#21: *1 open() "/usr/share/nginx/html/media/undefined" failed (2: No such file or directory), client: 192.168.240.1, server: localhost, request: "GET /media/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/list/"
+2023/04/22 16:20:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 16:20:16 [notice] 21#21: gracefully shutting down
+2023/04/22 16:20:16 [notice] 22#22: gracefully shutting down
+2023/04/22 16:20:16 [notice] 23#23: gracefully shutting down
+2023/04/22 16:20:16 [notice] 24#24: gracefully shutting down
+2023/04/22 16:20:16 [notice] 25#25: gracefully shutting down
+2023/04/22 16:20:16 [notice] 26#26: gracefully shutting down
+2023/04/22 16:20:16 [notice] 27#27: gracefully shutting down
+2023/04/22 16:20:16 [notice] 28#28: gracefully shutting down
+2023/04/22 16:20:16 [notice] 22#22: exiting
+2023/04/22 16:20:16 [notice] 23#23: exiting
+2023/04/22 16:20:16 [notice] 24#24: exiting
+2023/04/22 16:20:16 [notice] 25#25: exiting
+2023/04/22 16:20:16 [notice] 26#26: exiting
+2023/04/22 16:20:16 [notice] 27#27: exiting
+2023/04/22 16:20:16 [notice] 28#28: exiting
+2023/04/22 16:20:16 [notice] 22#22: exit
+2023/04/22 16:20:16 [notice] 23#23: exit
+2023/04/22 16:20:16 [notice] 24#24: exit
+2023/04/22 16:20:16 [notice] 25#25: exit
+2023/04/22 16:20:16 [notice] 26#26: exit
+2023/04/22 16:20:16 [notice] 27#27: exit
+2023/04/22 16:20:16 [notice] 28#28: exit
+2023/04/22 16:20:16 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2023/04/22 16:20:16 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 16:20:16 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 16:20:16 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 16:20:16 [notice] 1#1: worker process 28 exited with code 0
+2023/04/22 16:20:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:20:16 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/22 16:20:16 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 16:20:16 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 16:20:16 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 16:20:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:20:16 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 16:20:16 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 16:20:16 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:21:27 [notice] 1#1: using the "epoll" event method
+2023/04/22 16:21:27 [notice] 1#1: nginx/1.23.3
+2023/04/22 16:21:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 16:21:27 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 16:21:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 16:21:27 [notice] 1#1: start worker processes
+2023/04/22 16:21:27 [notice] 1#1: start worker process 20
+2023/04/22 16:21:27 [notice] 1#1: start worker process 21
+2023/04/22 16:21:27 [notice] 1#1: start worker process 22
+2023/04/22 16:21:27 [notice] 1#1: start worker process 23
+2023/04/22 16:21:27 [notice] 1#1: start worker process 24
+2023/04/22 16:21:27 [notice] 1#1: start worker process 25
+2023/04/22 16:21:27 [notice] 1#1: start worker process 26
+2023/04/22 16:21:27 [notice] 1#1: start worker process 27
+2023/04/22 16:43:45 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 16:43:45 [notice] 20#20: gracefully shutting down
+2023/04/22 16:43:45 [notice] 21#21: gracefully shutting down
+2023/04/22 16:43:45 [notice] 22#22: gracefully shutting down
+2023/04/22 16:43:45 [notice] 24#24: gracefully shutting down
+2023/04/22 16:43:45 [notice] 25#25: gracefully shutting down
+2023/04/22 16:43:45 [notice] 26#26: gracefully shutting down
+2023/04/22 16:43:45 [notice] 27#27: gracefully shutting down
+2023/04/22 16:43:45 [notice] 23#23: gracefully shutting down
+2023/04/22 16:43:45 [notice] 20#20: exiting
+2023/04/22 16:43:45 [notice] 21#21: exiting
+2023/04/22 16:43:45 [notice] 22#22: exiting
+2023/04/22 16:43:45 [notice] 24#24: exiting
+2023/04/22 16:43:45 [notice] 25#25: exiting
+2023/04/22 16:43:45 [notice] 26#26: exiting
+2023/04/22 16:43:45 [notice] 27#27: exiting
+2023/04/22 16:43:45 [notice] 23#23: exiting
+2023/04/22 16:43:45 [notice] 20#20: exit
+2023/04/22 16:43:45 [notice] 21#21: exit
+2023/04/22 16:43:45 [notice] 22#22: exit
+2023/04/22 16:43:45 [notice] 24#24: exit
+2023/04/22 16:43:45 [notice] 25#25: exit
+2023/04/22 16:43:45 [notice] 26#26: exit
+2023/04/22 16:43:45 [notice] 27#27: exit
+2023/04/22 16:43:45 [notice] 23#23: exit
+2023/04/22 16:43:45 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 16:43:45 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 16:43:45 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 16:43:45 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 16:43:45 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 16:43:45 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 16:43:45 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 16:43:45 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:43:45 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 16:43:45 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 16:43:45 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 16:43:45 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:43:45 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/22 16:43:45 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 16:43:45 [notice] 1#1: exit
+2023/04/22 16:51:22 [notice] 1#1: using the "epoll" event method
+2023/04/22 16:51:22 [notice] 1#1: nginx/1.23.3
+2023/04/22 16:51:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 16:51:22 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 16:51:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 16:51:22 [notice] 1#1: start worker processes
+2023/04/22 16:51:22 [notice] 1#1: start worker process 20
+2023/04/22 16:51:22 [notice] 1#1: start worker process 21
+2023/04/22 16:51:22 [notice] 1#1: start worker process 22
+2023/04/22 16:51:22 [notice] 1#1: start worker process 23
+2023/04/22 16:51:22 [notice] 1#1: start worker process 24
+2023/04/22 16:51:22 [notice] 1#1: start worker process 25
+2023/04/22 16:51:22 [notice] 1#1: start worker process 26
+2023/04/22 16:51:22 [notice] 1#1: start worker process 27
+2023/04/22 16:56:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 16:56:03 [notice] 20#20: gracefully shutting down
+2023/04/22 16:56:03 [notice] 21#21: gracefully shutting down
+2023/04/22 16:56:03 [notice] 21#21: exiting
+2023/04/22 16:56:03 [notice] 22#22: gracefully shutting down
+2023/04/22 16:56:03 [notice] 23#23: gracefully shutting down
+2023/04/22 16:56:03 [notice] 25#25: gracefully shutting down
+2023/04/22 16:56:03 [notice] 24#24: gracefully shutting down
+2023/04/22 16:56:03 [notice] 26#26: gracefully shutting down
+2023/04/22 16:56:03 [notice] 27#27: gracefully shutting down
+2023/04/22 16:56:03 [notice] 20#20: exiting
+2023/04/22 16:56:03 [notice] 21#21: exit
+2023/04/22 16:56:03 [notice] 22#22: exiting
+2023/04/22 16:56:03 [notice] 23#23: exiting
+2023/04/22 16:56:03 [notice] 25#25: exiting
+2023/04/22 16:56:03 [notice] 24#24: exiting
+2023/04/22 16:56:03 [notice] 26#26: exiting
+2023/04/22 16:56:03 [notice] 27#27: exiting
+2023/04/22 16:56:03 [notice] 20#20: exit
+2023/04/22 16:56:03 [notice] 22#22: exit
+2023/04/22 16:56:03 [notice] 23#23: exit
+2023/04/22 16:56:03 [notice] 25#25: exit
+2023/04/22 16:56:03 [notice] 24#24: exit
+2023/04/22 16:56:03 [notice] 26#26: exit
+2023/04/22 16:56:03 [notice] 27#27: exit
+2023/04/22 16:56:04 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/22 16:56:04 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 16:56:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:56:04 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 16:56:04 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 16:56:04 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 16:56:04 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 16:56:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:56:04 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 16:56:04 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/22 16:56:04 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 16:56:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:56:04 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/04/22 16:56:04 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 16:56:04 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 16:56:04 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:56:04 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/22 16:56:04 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 16:56:04 [notice] 1#1: exit
+2023/04/22 16:58:14 [notice] 1#1: using the "epoll" event method
+2023/04/22 16:58:14 [notice] 1#1: nginx/1.23.3
+2023/04/22 16:58:14 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 16:58:14 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 16:58:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 16:58:14 [notice] 1#1: start worker processes
+2023/04/22 16:58:14 [notice] 1#1: start worker process 20
+2023/04/22 16:58:14 [notice] 1#1: start worker process 21
+2023/04/22 16:58:14 [notice] 1#1: start worker process 22
+2023/04/22 16:58:14 [notice] 1#1: start worker process 23
+2023/04/22 16:58:14 [notice] 1#1: start worker process 24
+2023/04/22 16:58:14 [notice] 1#1: start worker process 25
+2023/04/22 16:58:14 [notice] 1#1: start worker process 26
+2023/04/22 16:58:14 [notice] 1#1: start worker process 27
+2023/04/22 16:59:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 16:59:21 [notice] 20#20: gracefully shutting down
+2023/04/22 16:59:21 [notice] 21#21: gracefully shutting down
+2023/04/22 16:59:21 [notice] 26#26: gracefully shutting down
+2023/04/22 16:59:21 [notice] 22#22: gracefully shutting down
+2023/04/22 16:59:21 [notice] 25#25: gracefully shutting down
+2023/04/22 16:59:21 [notice] 24#24: gracefully shutting down
+2023/04/22 16:59:21 [notice] 23#23: gracefully shutting down
+2023/04/22 16:59:21 [notice] 27#27: gracefully shutting down
+2023/04/22 16:59:21 [notice] 20#20: exiting
+2023/04/22 16:59:21 [notice] 21#21: exiting
+2023/04/22 16:59:21 [notice] 26#26: exiting
+2023/04/22 16:59:21 [notice] 22#22: exiting
+2023/04/22 16:59:21 [notice] 25#25: exiting
+2023/04/22 16:59:21 [notice] 24#24: exiting
+2023/04/22 16:59:21 [notice] 23#23: exiting
+2023/04/22 16:59:21 [notice] 27#27: exiting
+2023/04/22 16:59:21 [notice] 20#20: exit
+2023/04/22 16:59:21 [notice] 21#21: exit
+2023/04/22 16:59:21 [notice] 26#26: exit
+2023/04/22 16:59:21 [notice] 22#22: exit
+2023/04/22 16:59:21 [notice] 25#25: exit
+2023/04/22 16:59:21 [notice] 24#24: exit
+2023/04/22 16:59:21 [notice] 23#23: exit
+2023/04/22 16:59:21 [notice] 27#27: exit
+2023/04/22 16:59:21 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 16:59:21 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 16:59:21 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:59:21 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 16:59:21 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 16:59:21 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 16:59:21 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 16:59:21 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 16:59:21 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/22 16:59:21 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/22 16:59:21 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 16:59:21 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 16:59:21 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 16:59:21 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 16:59:21 [notice] 1#1: exit
+2023/04/22 17:00:34 [notice] 1#1: using the "epoll" event method
+2023/04/22 17:00:34 [notice] 1#1: nginx/1.23.3
+2023/04/22 17:00:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 17:00:34 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 17:00:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 17:00:34 [notice] 1#1: start worker processes
+2023/04/22 17:00:34 [notice] 1#1: start worker process 20
+2023/04/22 17:00:34 [notice] 1#1: start worker process 21
+2023/04/22 17:00:34 [notice] 1#1: start worker process 22
+2023/04/22 17:00:34 [notice] 1#1: start worker process 23
+2023/04/22 17:00:34 [notice] 1#1: start worker process 24
+2023/04/22 17:00:34 [notice] 1#1: start worker process 25
+2023/04/22 17:00:34 [notice] 1#1: start worker process 26
+2023/04/22 17:00:34 [notice] 1#1: start worker process 27
+2023/04/22 17:01:23 [error] 20#20: *1 open() "/usr/share/nginx/html/media/undefined" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /media/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost/depart/add/"
+2023/04/22 17:02:16 [error] 20#20: *1 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:02:16 [error] 21#21: *2 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:02:16 [error] 22#22: *38 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:21 [error] 22#22: *38 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:21 [error] 23#23: *46 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:21 [error] 24#24: *47 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:33 [error] 24#24: *47 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:33 [error] 22#22: *38 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:33 [error] 23#23: *46 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:35 [error] 23#23: *46 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:35 [error] 22#22: *38 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:35 [error] 24#24: *47 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:42 [error] 24#24: *47 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:42 [error] 23#23: *46 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:42 [error] 22#22: *38 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:47 [error] 22#22: *38 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:47 [error] 24#24: *47 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:03:47 [error] 23#23: *46 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js" failed (2: No such file or directory), client: 172.22.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:08:13 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 17:08:13 [notice] 20#20: gracefully shutting down
+2023/04/22 17:08:13 [notice] 21#21: gracefully shutting down
+2023/04/22 17:08:13 [notice] 21#21: exiting
+2023/04/22 17:08:13 [notice] 23#23: gracefully shutting down
+2023/04/22 17:08:13 [notice] 22#22: gracefully shutting down
+2023/04/22 17:08:13 [notice] 24#24: gracefully shutting down
+2023/04/22 17:08:13 [notice] 25#25: gracefully shutting down
+2023/04/22 17:08:13 [notice] 26#26: gracefully shutting down
+2023/04/22 17:08:13 [notice] 27#27: gracefully shutting down
+2023/04/22 17:08:13 [notice] 20#20: exiting
+2023/04/22 17:08:13 [notice] 21#21: exit
+2023/04/22 17:08:13 [notice] 23#23: exiting
+2023/04/22 17:08:13 [notice] 22#22: exiting
+2023/04/22 17:08:13 [notice] 24#24: exiting
+2023/04/22 17:08:13 [notice] 25#25: exiting
+2023/04/22 17:08:13 [notice] 26#26: exiting
+2023/04/22 17:08:13 [notice] 27#27: exiting
+2023/04/22 17:08:13 [notice] 20#20: exit
+2023/04/22 17:08:13 [notice] 23#23: exit
+2023/04/22 17:08:13 [notice] 22#22: exit
+2023/04/22 17:08:13 [notice] 24#24: exit
+2023/04/22 17:08:13 [notice] 25#25: exit
+2023/04/22 17:08:13 [notice] 26#26: exit
+2023/04/22 17:08:13 [notice] 27#27: exit
+2023/04/22 17:08:13 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/22 17:08:13 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 17:08:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:08:13 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/22 17:08:13 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 17:08:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:08:13 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/22 17:08:13 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 17:08:13 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 17:08:13 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:08:13 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 17:08:13 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 17:08:13 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 17:08:13 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 17:08:13 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 17:08:13 [notice] 1#1: exit
+2023/04/22 17:08:36 [notice] 1#1: using the "epoll" event method
+2023/04/22 17:08:36 [notice] 1#1: nginx/1.23.3
+2023/04/22 17:08:36 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 17:08:36 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 17:08:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 17:08:36 [notice] 1#1: start worker processes
+2023/04/22 17:08:36 [notice] 1#1: start worker process 20
+2023/04/22 17:08:36 [notice] 1#1: start worker process 21
+2023/04/22 17:08:36 [notice] 1#1: start worker process 22
+2023/04/22 17:08:36 [notice] 1#1: start worker process 23
+2023/04/22 17:08:36 [notice] 1#1: start worker process 24
+2023/04/22 17:08:36 [notice] 1#1: start worker process 25
+2023/04/22 17:08:36 [notice] 1#1: start worker process 26
+2023/04/22 17:08:36 [notice] 1#1: start worker process 27
+2023/04/22 17:27:07 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 17:27:07 [notice] 20#20: gracefully shutting down
+2023/04/22 17:27:07 [notice] 23#23: gracefully shutting down
+2023/04/22 17:27:07 [notice] 24#24: gracefully shutting down
+2023/04/22 17:27:07 [notice] 25#25: gracefully shutting down
+2023/04/22 17:27:07 [notice] 27#27: gracefully shutting down
+2023/04/22 17:27:07 [notice] 21#21: gracefully shutting down
+2023/04/22 17:27:07 [notice] 22#22: gracefully shutting down
+2023/04/22 17:27:07 [notice] 26#26: gracefully shutting down
+2023/04/22 17:27:07 [notice] 20#20: exiting
+2023/04/22 17:27:07 [notice] 23#23: exiting
+2023/04/22 17:27:07 [notice] 24#24: exiting
+2023/04/22 17:27:07 [notice] 25#25: exiting
+2023/04/22 17:27:07 [notice] 27#27: exiting
+2023/04/22 17:27:07 [notice] 21#21: exiting
+2023/04/22 17:27:07 [notice] 22#22: exiting
+2023/04/22 17:27:07 [notice] 26#26: exiting
+2023/04/22 17:27:07 [notice] 20#20: exit
+2023/04/22 17:27:07 [notice] 23#23: exit
+2023/04/22 17:27:07 [notice] 24#24: exit
+2023/04/22 17:27:07 [notice] 25#25: exit
+2023/04/22 17:27:07 [notice] 27#27: exit
+2023/04/22 17:27:07 [notice] 21#21: exit
+2023/04/22 17:27:07 [notice] 22#22: exit
+2023/04/22 17:27:07 [notice] 26#26: exit
+2023/04/22 17:27:07 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 17:27:07 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 17:27:07 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 17:27:07 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 17:27:07 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 17:27:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:27:07 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/22 17:27:07 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 17:27:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:27:07 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/22 17:27:07 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 17:27:07 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 17:27:07 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:27:07 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 17:27:07 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/04/22 17:27:07 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 17:27:07 [notice] 1#1: exit
+2023/04/22 17:29:24 [notice] 1#1: using the "epoll" event method
+2023/04/22 17:29:24 [notice] 1#1: nginx/1.23.3
+2023/04/22 17:29:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 17:29:24 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 17:29:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 17:29:24 [notice] 1#1: start worker processes
+2023/04/22 17:29:24 [notice] 1#1: start worker process 20
+2023/04/22 17:29:24 [notice] 1#1: start worker process 21
+2023/04/22 17:29:24 [notice] 1#1: start worker process 22
+2023/04/22 17:29:24 [notice] 1#1: start worker process 23
+2023/04/22 17:29:24 [notice] 1#1: start worker process 24
+2023/04/22 17:29:24 [notice] 1#1: start worker process 25
+2023/04/22 17:29:24 [notice] 1#1: start worker process 26
+2023/04/22 17:29:24 [notice] 1#1: start worker process 27
+2023/04/22 17:32:21 [error] 20#20: *1 open() "/usr/share/nginx/html/media/undefined" failed (2: No such file or directory), client: 172.23.0.1, server: localhost, request: "GET /media/undefined HTTP/1.1", host: "localhost", referrer: "http://localhost/depart/add/"
+2023/04/22 17:33:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 17:33:18 [notice] 20#20: gracefully shutting down
+2023/04/22 17:33:18 [notice] 21#21: gracefully shutting down
+2023/04/22 17:33:18 [notice] 22#22: gracefully shutting down
+2023/04/22 17:33:18 [notice] 23#23: gracefully shutting down
+2023/04/22 17:33:18 [notice] 24#24: gracefully shutting down
+2023/04/22 17:33:18 [notice] 25#25: gracefully shutting down
+2023/04/22 17:33:18 [notice] 27#27: gracefully shutting down
+2023/04/22 17:33:18 [notice] 26#26: gracefully shutting down
+2023/04/22 17:33:18 [notice] 26#26: exiting
+2023/04/22 17:33:18 [notice] 20#20: exiting
+2023/04/22 17:33:18 [notice] 21#21: exiting
+2023/04/22 17:33:18 [notice] 22#22: exiting
+2023/04/22 17:33:18 [notice] 23#23: exiting
+2023/04/22 17:33:18 [notice] 24#24: exiting
+2023/04/22 17:33:18 [notice] 25#25: exiting
+2023/04/22 17:33:18 [notice] 27#27: exiting
+2023/04/22 17:33:18 [notice] 26#26: exit
+2023/04/22 17:33:18 [notice] 20#20: exit
+2023/04/22 17:33:18 [notice] 21#21: exit
+2023/04/22 17:33:18 [notice] 22#22: exit
+2023/04/22 17:33:18 [notice] 23#23: exit
+2023/04/22 17:33:18 [notice] 24#24: exit
+2023/04/22 17:33:18 [notice] 25#25: exit
+2023/04/22 17:33:18 [notice] 27#27: exit
+2023/04/22 17:33:19 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 17:33:19 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 17:33:19 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 17:33:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:33:19 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/04/22 17:33:19 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 17:33:19 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 17:33:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:33:19 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/22 17:33:19 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 17:33:19 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 17:33:19 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 17:33:19 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:33:19 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 17:33:19 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 17:33:19 [notice] 1#1: exit
+2023/04/22 17:41:04 [notice] 1#1: using the "epoll" event method
+2023/04/22 17:41:04 [notice] 1#1: nginx/1.23.3
+2023/04/22 17:41:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 17:41:04 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 17:41:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 17:41:04 [notice] 1#1: start worker processes
+2023/04/22 17:41:04 [notice] 1#1: start worker process 20
+2023/04/22 17:41:04 [notice] 1#1: start worker process 21
+2023/04/22 17:41:04 [notice] 1#1: start worker process 22
+2023/04/22 17:41:04 [notice] 1#1: start worker process 23
+2023/04/22 17:41:04 [notice] 1#1: start worker process 24
+2023/04/22 17:41:04 [notice] 1#1: start worker process 25
+2023/04/22 17:41:04 [notice] 1#1: start worker process 26
+2023/04/22 17:41:04 [notice] 1#1: start worker process 27
+2023/04/22 17:43:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 17:43:47 [notice] 20#20: gracefully shutting down
+2023/04/22 17:43:47 [notice] 22#22: gracefully shutting down
+2023/04/22 17:43:47 [notice] 21#21: gracefully shutting down
+2023/04/22 17:43:47 [notice] 23#23: gracefully shutting down
+2023/04/22 17:43:47 [notice] 24#24: gracefully shutting down
+2023/04/22 17:43:47 [notice] 25#25: gracefully shutting down
+2023/04/22 17:43:47 [notice] 27#27: gracefully shutting down
+2023/04/22 17:43:47 [notice] 26#26: gracefully shutting down
+2023/04/22 17:43:47 [notice] 20#20: exiting
+2023/04/22 17:43:47 [notice] 22#22: exiting
+2023/04/22 17:43:47 [notice] 21#21: exiting
+2023/04/22 17:43:47 [notice] 23#23: exiting
+2023/04/22 17:43:47 [notice] 24#24: exiting
+2023/04/22 17:43:47 [notice] 25#25: exiting
+2023/04/22 17:43:47 [notice] 27#27: exiting
+2023/04/22 17:43:47 [notice] 26#26: exiting
+2023/04/22 17:43:47 [notice] 20#20: exit
+2023/04/22 17:43:47 [notice] 22#22: exit
+2023/04/22 17:43:47 [notice] 21#21: exit
+2023/04/22 17:43:47 [notice] 23#23: exit
+2023/04/22 17:43:47 [notice] 24#24: exit
+2023/04/22 17:43:47 [notice] 25#25: exit
+2023/04/22 17:43:47 [notice] 27#27: exit
+2023/04/22 17:43:47 [notice] 26#26: exit
+2023/04/22 17:43:47 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/22 17:43:47 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 17:43:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:43:47 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/04/22 17:43:47 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 17:43:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:43:47 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 17:43:47 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 17:43:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:43:47 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 17:43:47 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 17:43:47 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 17:43:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:43:47 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/22 17:43:47 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 17:43:47 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 17:43:47 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 17:43:47 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/04/22 17:43:47 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 17:43:47 [notice] 1#1: exit
+2023/04/22 17:45:52 [notice] 1#1: using the "epoll" event method
+2023/04/22 17:45:52 [notice] 1#1: nginx/1.23.3
+2023/04/22 17:45:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 17:45:52 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 17:45:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 17:45:52 [notice] 1#1: start worker processes
+2023/04/22 17:45:52 [notice] 1#1: start worker process 20
+2023/04/22 17:45:52 [notice] 1#1: start worker process 21
+2023/04/22 17:45:52 [notice] 1#1: start worker process 22
+2023/04/22 17:45:52 [notice] 1#1: start worker process 23
+2023/04/22 17:45:52 [notice] 1#1: start worker process 24
+2023/04/22 17:45:52 [notice] 1#1: start worker process 25
+2023/04/22 17:45:52 [notice] 1#1: start worker process 26
+2023/04/22 17:45:52 [notice] 1#1: start worker process 27
+2023/04/22 17:46:06 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.24.0.3:8000", host: "localhost"
+2023/04/22 17:46:13 [error] 21#21: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 172.24.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.24.0.3:8000", host: "localhost"
+2023/04/22 17:47:32 [error] 24#24: *10 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:47:32 [error] 25#25: *11 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:47:32 [error] 26#26: *24 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/add/"
+2023/04/22 17:48:00 [error] 27#27: *26 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/css/bootstrap-datepicker.min.css HTTP/1.1", host: "localhost", referrer: "http://localhost/user/1/edit/"
+2023/04/22 17:48:00 [error] 20#20: *28 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/js/bootstrap-datepicker.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/1/edit/"
+2023/04/22 17:48:00 [error] 21#21: *32 open() "/usr/share/nginx/html/static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /static/plugins/bootstrap-datepicker-master/dist/locales/bootstrap-datepicker.zh-CN.min.js HTTP/1.1", host: "localhost", referrer: "http://localhost/user/1/edit/"
+2023/04/22 17:49:20 [warn] 20#20: *50 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.24.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 17:49:20 [error] 20#20: *50 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 17:49:20 [error] 20#20: *50 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 17:49:30 [error] 20#20: *50 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/file/list/"
+2023/04/22 17:49:33 [error] 20#20: *50 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/file/add/"
+2023/04/22 17:49:47 [warn] 20#20: *50 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.24.0.1, server: localhost, request: "POST /file/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/file/add/"
+2023/04/22 17:49:47 [error] 20#20: *50 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/file/list/"
+2023/04/22 17:49:50 [error] 20#20: *50 open() "/usr/share/nginx/html/media/file/profile.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/file/profile.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/file/list/"
+2023/04/22 17:49:52 [error] 20#20: *50 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/file/list/"
+2023/04/22 17:49:57 [error] 20#20: *50 open() "/usr/share/nginx/html/media/file/profile.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/file/profile.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/file/list/"
+2023/04/22 17:50:00 [error] 20#20: *50 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 17:50:00 [error] 20#20: *50 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 17:50:12 [error] 20#20: *50 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/list/"
+2023/04/22 17:51:53 [error] 20#20: *72 open() "/usr/share/nginx/html/media/image/profile.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/image/profile.jpg HTTP/1.1", host: "localhost"
+2023/04/22 17:52:06 [error] 20#20: *72 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 17:52:06 [error] 20#20: *72 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 17:52:07 [error] 20#20: *72 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/file/list/"
+2023/04/22 17:52:08 [error] 20#20: *72 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 17:52:08 [error] 20#20: *72 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 17:52:08 [error] 20#20: *72 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/file/list/"
+2023/04/22 17:52:10 [error] 20#20: *72 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/task/list/"
+2023/04/22 17:52:10 [error] 20#20: *72 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/user/list/"
+2023/04/22 17:52:11 [error] 20#20: *72 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/depart/list/"
+2023/04/22 17:52:12 [error] 20#20: *72 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/list/"
+2023/04/22 17:54:39 [error] 20#20: *90 open() "/usr/share/nginx/html/media/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost"
+2023/04/22 17:55:33 [error] 20#20: *94 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost"
+2023/04/22 18:00:55 [error] 20#20: *97 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/list/"
+2023/04/22 18:00:55 [error] 20#20: *97 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/list/"
+2023/04/22 18:00:56 [error] 20#20: *97 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/list/"
+2023/04/22 18:00:56 [error] 20#20: *97 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/admin/list/"
+2023/04/22 18:00:59 [error] 20#20: *106 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:00:59 [error] 20#20: *106 open() "/usr/share/nginx/html/media/img/profile_zdX8Ub4.jpg" failed (2: No such file or directory), client: 172.24.0.1, server: localhost, request: "GET /media/img/profile_zdX8Ub4.jpg HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:06:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 18:06:51 [notice] 20#20: gracefully shutting down
+2023/04/22 18:06:51 [notice] 21#21: gracefully shutting down
+2023/04/22 18:06:51 [notice] 22#22: gracefully shutting down
+2023/04/22 18:06:51 [notice] 26#26: gracefully shutting down
+2023/04/22 18:06:51 [notice] 23#23: gracefully shutting down
+2023/04/22 18:06:51 [notice] 25#25: gracefully shutting down
+2023/04/22 18:06:51 [notice] 24#24: gracefully shutting down
+2023/04/22 18:06:51 [notice] 27#27: gracefully shutting down
+2023/04/22 18:06:51 [notice] 20#20: exiting
+2023/04/22 18:06:51 [notice] 21#21: exiting
+2023/04/22 18:06:51 [notice] 22#22: exiting
+2023/04/22 18:06:51 [notice] 26#26: exiting
+2023/04/22 18:06:51 [notice] 23#23: exiting
+2023/04/22 18:06:51 [notice] 25#25: exiting
+2023/04/22 18:06:51 [notice] 24#24: exiting
+2023/04/22 18:06:51 [notice] 27#27: exiting
+2023/04/22 18:06:51 [notice] 20#20: exit
+2023/04/22 18:06:51 [notice] 21#21: exit
+2023/04/22 18:06:51 [notice] 22#22: exit
+2023/04/22 18:06:51 [notice] 26#26: exit
+2023/04/22 18:06:51 [notice] 23#23: exit
+2023/04/22 18:06:51 [notice] 25#25: exit
+2023/04/22 18:06:51 [notice] 24#24: exit
+2023/04/22 18:06:51 [notice] 27#27: exit
+2023/04/22 18:06:51 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/22 18:06:51 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 18:06:51 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 18:06:51 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 18:06:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 18:06:51 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 18:06:51 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/22 18:06:51 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 18:06:51 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 18:06:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 18:06:51 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 18:06:51 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 18:06:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 18:06:51 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/04/22 18:06:51 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 18:06:51 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 18:06:51 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2023/04/22 18:06:51 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 18:06:51 [notice] 1#1: exit
+2023/04/22 18:10:02 [notice] 1#1: using the "epoll" event method
+2023/04/22 18:10:02 [notice] 1#1: nginx/1.23.3
+2023/04/22 18:10:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 18:10:02 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 18:10:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 18:10:02 [notice] 1#1: start worker processes
+2023/04/22 18:10:02 [notice] 1#1: start worker process 20
+2023/04/22 18:10:02 [notice] 1#1: start worker process 21
+2023/04/22 18:10:02 [notice] 1#1: start worker process 22
+2023/04/22 18:10:02 [notice] 1#1: start worker process 23
+2023/04/22 18:10:02 [notice] 1#1: start worker process 24
+2023/04/22 18:10:02 [notice] 1#1: start worker process 25
+2023/04/22 18:10:02 [notice] 1#1: start worker process 26
+2023/04/22 18:10:02 [notice] 1#1: start worker process 27
+2023/04/22 18:11:33 [warn] 20#20: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.25.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:11:36 [warn] 20#20: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.25.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:11:44 [warn] 20#20: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.25.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:13:28 [warn] 20#20: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000004, client: 172.25.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:13:35 [warn] 20#20: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000005, client: 172.25.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:13:51 [warn] 20#20: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000006, client: 172.25.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:13:52 [warn] 20#20: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000007, client: 172.25.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:14:03 [warn] 20#20: *1 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000008, client: 172.25.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:18:10 [warn] 26#26: *56 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000009, client: 172.25.0.1, server: localhost, request: "POST /file/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/file/add/"
+2023/04/22 18:26:45 [warn] 20#20: *112 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000010, client: 172.25.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:28:55 [warn] 20#20: *119 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000011, client: 172.25.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:37:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 18:37:18 [notice] 21#21: gracefully shutting down
+2023/04/22 18:37:18 [notice] 20#20: gracefully shutting down
+2023/04/22 18:37:18 [notice] 22#22: gracefully shutting down
+2023/04/22 18:37:18 [notice] 22#22: exiting
+2023/04/22 18:37:18 [notice] 23#23: gracefully shutting down
+2023/04/22 18:37:18 [notice] 24#24: gracefully shutting down
+2023/04/22 18:37:18 [notice] 27#27: gracefully shutting down
+2023/04/22 18:37:18 [notice] 25#25: gracefully shutting down
+2023/04/22 18:37:18 [notice] 26#26: gracefully shutting down
+2023/04/22 18:37:18 [notice] 21#21: exiting
+2023/04/22 18:37:18 [notice] 20#20: exiting
+2023/04/22 18:37:18 [notice] 22#22: exit
+2023/04/22 18:37:18 [notice] 23#23: exiting
+2023/04/22 18:37:18 [notice] 24#24: exiting
+2023/04/22 18:37:18 [notice] 27#27: exiting
+2023/04/22 18:37:18 [notice] 25#25: exiting
+2023/04/22 18:37:18 [notice] 26#26: exiting
+2023/04/22 18:37:18 [notice] 21#21: exit
+2023/04/22 18:37:18 [notice] 20#20: exit
+2023/04/22 18:37:18 [notice] 23#23: exit
+2023/04/22 18:37:18 [notice] 24#24: exit
+2023/04/22 18:37:18 [notice] 27#27: exit
+2023/04/22 18:37:18 [notice] 25#25: exit
+2023/04/22 18:37:18 [notice] 26#26: exit
+2023/04/22 18:37:18 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/22 18:37:18 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 18:37:18 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 18:37:18 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 18:37:18 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 18:37:18 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 18:37:18 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 18:37:18 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2023/04/22 18:37:18 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 18:37:18 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 18:37:18 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 18:37:18 [notice] 1#1: exit
+2023/04/22 18:39:51 [notice] 1#1: using the "epoll" event method
+2023/04/22 18:39:51 [notice] 1#1: nginx/1.23.3
+2023/04/22 18:39:51 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/22 18:39:51 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/22 18:39:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/22 18:39:51 [notice] 1#1: start worker processes
+2023/04/22 18:39:51 [notice] 1#1: start worker process 20
+2023/04/22 18:39:51 [notice] 1#1: start worker process 21
+2023/04/22 18:39:51 [notice] 1#1: start worker process 22
+2023/04/22 18:39:51 [notice] 1#1: start worker process 23
+2023/04/22 18:39:51 [notice] 1#1: start worker process 24
+2023/04/22 18:39:51 [notice] 1#1: start worker process 25
+2023/04/22 18:39:51 [notice] 1#1: start worker process 26
+2023/04/22 18:39:51 [notice] 1#1: start worker process 27
+2023/04/22 18:43:32 [warn] 23#23: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 172.26.0.1, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:44:11 [warn] 23#23: *30 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000002, client: 172.26.0.1, server: localhost, request: "POST /file/add/ HTTP/1.1", host: "localhost", referrer: "http://localhost/file/add/"
+2023/04/22 18:45:13 [warn] 25#25: *55 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000003, client: 172.26.0.1, server: localhost, request: "POST /image/edit/?uid=1 HTTP/1.1", host: "localhost", referrer: "http://localhost/image/list/"
+2023/04/22 18:48:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/22 18:48:24 [notice] 21#21: gracefully shutting down
+2023/04/22 18:48:24 [notice] 20#20: gracefully shutting down
+2023/04/22 18:48:24 [notice] 23#23: gracefully shutting down
+2023/04/22 18:48:24 [notice] 23#23: exiting
+2023/04/22 18:48:24 [notice] 22#22: gracefully shutting down
+2023/04/22 18:48:24 [notice] 24#24: gracefully shutting down
+2023/04/22 18:48:24 [notice] 25#25: gracefully shutting down
+2023/04/22 18:48:24 [notice] 25#25: exiting
+2023/04/22 18:48:24 [notice] 27#27: gracefully shutting down
+2023/04/22 18:48:24 [notice] 27#27: exiting
+2023/04/22 18:48:24 [notice] 26#26: gracefully shutting down
+2023/04/22 18:48:24 [notice] 21#21: exiting
+2023/04/22 18:48:24 [notice] 20#20: exiting
+2023/04/22 18:48:24 [notice] 23#23: exit
+2023/04/22 18:48:24 [notice] 22#22: exiting
+2023/04/22 18:48:24 [notice] 24#24: exiting
+2023/04/22 18:48:24 [notice] 25#25: exit
+2023/04/22 18:48:24 [notice] 27#27: exit
+2023/04/22 18:48:24 [notice] 26#26: exiting
+2023/04/22 18:48:24 [notice] 21#21: exit
+2023/04/22 18:48:24 [notice] 20#20: exit
+2023/04/22 18:48:24 [notice] 22#22: exit
+2023/04/22 18:48:24 [notice] 24#24: exit
+2023/04/22 18:48:24 [notice] 26#26: exit
+2023/04/22 18:48:25 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2023/04/22 18:48:25 [notice] 1#1: worker process 23 exited with code 0
+2023/04/22 18:48:25 [notice] 1#1: worker process 27 exited with code 0
+2023/04/22 18:48:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 18:48:25 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2023/04/22 18:48:25 [notice] 1#1: worker process 22 exited with code 0
+2023/04/22 18:48:25 [notice] 1#1: worker process 24 exited with code 0
+2023/04/22 18:48:25 [notice] 1#1: worker process 25 exited with code 0
+2023/04/22 18:48:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 18:48:25 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/22 18:48:25 [notice] 1#1: worker process 20 exited with code 0
+2023/04/22 18:48:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 18:48:25 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/22 18:48:25 [notice] 1#1: worker process 21 exited with code 0
+2023/04/22 18:48:25 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/22 18:48:25 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2023/04/22 18:48:25 [notice] 1#1: worker process 26 exited with code 0
+2023/04/22 18:48:25 [notice] 1#1: exit
+2023/04/23 09:25:17 [notice] 1#1: using the "epoll" event method
+2023/04/23 09:25:17 [notice] 1#1: nginx/1.23.3
+2023/04/23 09:25:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/04/23 09:25:17 [notice] 1#1: OS: Linux 5.15.90.1-microsoft-standard-WSL2
+2023/04/23 09:25:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/04/23 09:25:17 [notice] 1#1: start worker processes
+2023/04/23 09:25:17 [notice] 1#1: start worker process 20
+2023/04/23 09:25:17 [notice] 1#1: start worker process 21
+2023/04/23 09:25:17 [notice] 1#1: start worker process 22
+2023/04/23 09:25:17 [notice] 1#1: start worker process 23
+2023/04/23 09:25:17 [notice] 1#1: start worker process 24
+2023/04/23 09:25:17 [notice] 1#1: start worker process 25
+2023/04/23 09:25:17 [notice] 1#1: start worker process 26
+2023/04/23 09:25:17 [notice] 1#1: start worker process 27
+2023/04/23 09:25:40 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/04/23 09:25:40 [notice] 20#20: gracefully shutting down
+2023/04/23 09:25:40 [notice] 21#21: gracefully shutting down
+2023/04/23 09:25:40 [notice] 22#22: gracefully shutting down
+2023/04/23 09:25:40 [notice] 23#23: gracefully shutting down
+2023/04/23 09:25:40 [notice] 25#25: gracefully shutting down
+2023/04/23 09:25:40 [notice] 27#27: gracefully shutting down
+2023/04/23 09:25:40 [notice] 24#24: gracefully shutting down
+2023/04/23 09:25:40 [notice] 26#26: gracefully shutting down
+2023/04/23 09:25:40 [notice] 20#20: exiting
+2023/04/23 09:25:40 [notice] 21#21: exiting
+2023/04/23 09:25:40 [notice] 22#22: exiting
+2023/04/23 09:25:40 [notice] 23#23: exiting
+2023/04/23 09:25:40 [notice] 25#25: exiting
+2023/04/23 09:25:40 [notice] 27#27: exiting
+2023/04/23 09:25:40 [notice] 24#24: exiting
+2023/04/23 09:25:40 [notice] 26#26: exiting
+2023/04/23 09:25:40 [notice] 20#20: exit
+2023/04/23 09:25:40 [notice] 21#21: exit
+2023/04/23 09:25:40 [notice] 22#22: exit
+2023/04/23 09:25:40 [notice] 23#23: exit
+2023/04/23 09:25:40 [notice] 25#25: exit
+2023/04/23 09:25:40 [notice] 27#27: exit
+2023/04/23 09:25:40 [notice] 24#24: exit
+2023/04/23 09:25:40 [notice] 26#26: exit
+2023/04/23 09:25:41 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/04/23 09:25:41 [notice] 1#1: worker process 21 exited with code 0
+2023/04/23 09:25:41 [notice] 1#1: worker process 25 exited with code 0
+2023/04/23 09:25:41 [notice] 1#1: signal 29 (SIGIO) received
+2023/04/23 09:25:41 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/04/23 09:25:41 [notice] 1#1: worker process 20 exited with code 0
+2023/04/23 09:25:41 [notice] 1#1: worker process 22 exited with code 0
+2023/04/23 09:25:41 [notice] 1#1: worker process 23 exited with code 0
+2023/04/23 09:25:41 [notice] 1#1: worker process 24 exited with code 0
+2023/04/23 09:25:41 [notice] 1#1: worker process 26 exited with code 0
+2023/04/23 09:25:41 [notice] 1#1: worker process 27 exited with code 0
+2023/04/23 09:25:41 [notice] 1#1: exit
