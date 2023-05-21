@@ -1336,3 +1336,281 @@
 2023/05/07 12:53:46 [notice] 1#1: worker process 23 exited with code 0
 2023/05/07 12:53:46 [notice] 1#1: worker process 26 exited with code 0
 2023/05/07 12:53:46 [notice] 1#1: exit
+2023/05/21 08:18:21 [notice] 1#1: using the "epoll" event method
+2023/05/21 08:18:21 [notice] 1#1: nginx/1.23.4
+2023/05/21 08:18:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 08:18:21 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 08:18:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 08:18:21 [notice] 1#1: start worker processes
+2023/05/21 08:18:21 [notice] 1#1: start worker process 20
+2023/05/21 08:18:21 [notice] 1#1: start worker process 21
+2023/05/21 08:52:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 08:52:15 [notice] 20#20: gracefully shutting down
+2023/05/21 08:52:15 [notice] 20#20: exiting
+2023/05/21 08:52:15 [notice] 20#20: exit
+2023/05/21 08:52:15 [notice] 21#21: gracefully shutting down
+2023/05/21 08:52:15 [notice] 21#21: exiting
+2023/05/21 08:52:15 [notice] 21#21: exit
+2023/05/21 08:52:15 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/21 08:52:15 [notice] 1#1: worker process 20 exited with code 0
+2023/05/21 08:52:15 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 08:52:15 [notice] 1#1: exit
+2023/05/21 08:52:16 [notice] 1#1: using the "epoll" event method
+2023/05/21 08:52:16 [notice] 1#1: nginx/1.23.4
+2023/05/21 08:52:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 08:52:16 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 08:52:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 08:52:16 [notice] 1#1: start worker processes
+2023/05/21 08:52:16 [notice] 1#1: start worker process 21
+2023/05/21 08:52:16 [notice] 1#1: start worker process 22
+2023/05/21 08:53:04 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100"
+2023/05/21 08:53:04 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/"
+2023/05/21 10:33:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 10:33:25 [notice] 21#21: gracefully shutting down
+2023/05/21 10:33:25 [notice] 22#22: gracefully shutting down
+2023/05/21 10:33:25 [notice] 22#22: exiting
+2023/05/21 10:33:25 [notice] 21#21: exiting
+2023/05/21 10:33:25 [notice] 21#21: exit
+2023/05/21 10:33:25 [notice] 22#22: exit
+2023/05/21 10:33:25 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/21 10:33:25 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 10:33:25 [notice] 1#1: worker process 22 exited with code 0
+2023/05/21 10:33:25 [notice] 1#1: exit
+2023/05/21 10:33:26 [notice] 1#1: using the "epoll" event method
+2023/05/21 10:33:26 [notice] 1#1: nginx/1.23.4
+2023/05/21 10:33:26 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 10:33:26 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 10:33:26 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 10:33:26 [notice] 1#1: start worker processes
+2023/05/21 10:33:26 [notice] 1#1: start worker process 21
+2023/05/21 10:33:26 [notice] 1#1: start worker process 22
+2023/05/21 10:34:48 [error] 22#22: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100"
+2023/05/21 11:15:56 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 11:15:56 [notice] 21#21: gracefully shutting down
+2023/05/21 11:15:56 [notice] 22#22: gracefully shutting down
+2023/05/21 11:15:56 [notice] 22#22: exiting
+2023/05/21 11:15:56 [notice] 21#21: exiting
+2023/05/21 11:15:56 [notice] 22#22: exit
+2023/05/21 11:15:56 [notice] 21#21: exit
+2023/05/21 11:15:56 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/05/21 11:15:56 [notice] 1#1: worker process 22 exited with code 0
+2023/05/21 11:15:56 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/21 11:15:56 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/21 11:15:56 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 11:15:56 [notice] 1#1: exit
+2023/05/21 11:15:57 [notice] 1#1: using the "epoll" event method
+2023/05/21 11:15:57 [notice] 1#1: nginx/1.23.4
+2023/05/21 11:15:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 11:15:57 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 11:15:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 11:15:57 [notice] 1#1: start worker processes
+2023/05/21 11:15:57 [notice] 1#1: start worker process 20
+2023/05/21 11:15:57 [notice] 1#1: start worker process 21
+2023/05/21 11:54:08 [error] 21#21: *11 connect() failed (113: No route to host) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100"
+2023/05/21 11:55:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 11:55:20 [notice] 21#21: gracefully shutting down
+2023/05/21 11:55:20 [notice] 20#20: gracefully shutting down
+2023/05/21 11:55:20 [notice] 21#21: exiting
+2023/05/21 11:55:20 [notice] 20#20: exiting
+2023/05/21 11:55:20 [notice] 21#21: exit
+2023/05/21 11:55:20 [notice] 20#20: exit
+2023/05/21 11:55:20 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/21 11:55:20 [notice] 1#1: worker process 20 exited with code 0
+2023/05/21 11:55:20 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 11:55:20 [notice] 1#1: exit
+2023/05/21 11:55:21 [notice] 1#1: using the "epoll" event method
+2023/05/21 11:55:21 [notice] 1#1: nginx/1.23.4
+2023/05/21 11:55:21 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 11:55:21 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 11:55:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 11:55:21 [notice] 1#1: start worker processes
+2023/05/21 11:55:21 [notice] 1#1: start worker process 20
+2023/05/21 11:55:21 [notice] 1#1: start worker process 21
+2023/05/21 11:55:26 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100"
+2023/05/21 11:55:27 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100"
+2023/05/21 13:08:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 13:08:15 [notice] 20#20: gracefully shutting down
+2023/05/21 13:08:15 [notice] 21#21: gracefully shutting down
+2023/05/21 13:08:15 [notice] 21#21: exiting
+2023/05/21 13:08:15 [notice] 20#20: exiting
+2023/05/21 13:08:15 [notice] 20#20: exit
+2023/05/21 13:08:15 [notice] 21#21: exit
+2023/05/21 13:08:15 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/05/21 13:08:15 [notice] 1#1: worker process 20 exited with code 0
+2023/05/21 13:08:15 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/21 13:08:15 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/21 13:08:15 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 13:08:15 [notice] 1#1: exit
+2023/05/21 13:08:16 [notice] 1#1: using the "epoll" event method
+2023/05/21 13:08:16 [notice] 1#1: nginx/1.23.4
+2023/05/21 13:08:16 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 13:08:16 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 13:08:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 13:08:16 [notice] 1#1: start worker processes
+2023/05/21 13:08:16 [notice] 1#1: start worker process 21
+2023/05/21 13:08:16 [notice] 1#1: start worker process 22
+2023/05/21 13:08:19 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100"
+2023/05/21 13:22:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 13:22:51 [notice] 21#21: gracefully shutting down
+2023/05/21 13:22:51 [notice] 22#22: gracefully shutting down
+2023/05/21 13:22:51 [notice] 21#21: exiting
+2023/05/21 13:22:51 [notice] 22#22: exiting
+2023/05/21 13:22:51 [notice] 22#22: exit
+2023/05/21 13:22:51 [notice] 21#21: exit
+2023/05/21 13:22:51 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/21 13:22:51 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 13:22:51 [notice] 1#1: worker process 22 exited with code 0
+2023/05/21 13:22:51 [notice] 1#1: exit
+2023/05/21 13:22:52 [notice] 1#1: using the "epoll" event method
+2023/05/21 13:22:52 [notice] 1#1: nginx/1.23.4
+2023/05/21 13:22:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 13:22:52 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 13:22:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 13:22:52 [notice] 1#1: start worker processes
+2023/05/21 13:22:52 [notice] 1#1: start worker process 20
+2023/05/21 13:22:52 [notice] 1#1: start worker process 21
+2023/05/21 13:22:54 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100"
+2023/05/21 13:50:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 13:50:48 [notice] 20#20: gracefully shutting down
+2023/05/21 13:50:48 [notice] 21#21: gracefully shutting down
+2023/05/21 13:50:48 [notice] 21#21: exiting
+2023/05/21 13:50:48 [notice] 20#20: exiting
+2023/05/21 13:50:48 [notice] 20#20: exit
+2023/05/21 13:50:48 [notice] 21#21: exit
+2023/05/21 13:50:48 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/21 13:50:48 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 13:50:48 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/21 13:50:48 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/05/21 13:50:48 [notice] 1#1: worker process 20 exited with code 0
+2023/05/21 13:50:48 [notice] 1#1: exit
+2023/05/21 13:50:49 [notice] 1#1: using the "epoll" event method
+2023/05/21 13:50:49 [notice] 1#1: nginx/1.23.4
+2023/05/21 13:50:49 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 13:50:49 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 13:50:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 13:50:49 [notice] 1#1: start worker processes
+2023/05/21 13:50:49 [notice] 1#1: start worker process 20
+2023/05/21 13:50:49 [notice] 1#1: start worker process 21
+2023/05/21 14:18:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 14:18:12 [notice] 20#20: gracefully shutting down
+2023/05/21 14:18:12 [notice] 21#21: gracefully shutting down
+2023/05/21 14:18:12 [notice] 20#20: exiting
+2023/05/21 14:18:12 [notice] 21#21: exiting
+2023/05/21 14:18:12 [notice] 20#20: exit
+2023/05/21 14:18:12 [notice] 21#21: exit
+2023/05/21 14:18:12 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/05/21 14:18:12 [notice] 1#1: worker process 20 exited with code 0
+2023/05/21 14:18:12 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/21 14:18:12 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/21 14:18:12 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 14:18:12 [notice] 1#1: exit
+2023/05/21 14:18:13 [notice] 1#1: using the "epoll" event method
+2023/05/21 14:18:13 [notice] 1#1: nginx/1.23.4
+2023/05/21 14:18:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 14:18:13 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 14:18:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 14:18:13 [notice] 1#1: start worker processes
+2023/05/21 14:18:13 [notice] 1#1: start worker process 20
+2023/05/21 14:18:13 [notice] 1#1: start worker process 21
+2023/05/21 14:18:36 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET /admin/list/ HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/login/"
+2023/05/21 14:18:40 [error] 21#21: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100"
+2023/05/21 14:18:48 [error] 20#20: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100"
+2023/05/21 14:19:04 [error] 20#20: *4 connect() failed (111: Connection refused) while connecting to upstream, client: 124.130.86.55, server: localhost, request: "GET / HTTP/1.1", upstream: "uwsgi://172.19.0.3:8000", host: "101.43.235.42:100"
+2023/05/21 14:34:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 14:34:21 [notice] 21#21: gracefully shutting down
+2023/05/21 14:34:21 [notice] 20#20: gracefully shutting down
+2023/05/21 14:34:21 [notice] 20#20: exiting
+2023/05/21 14:34:21 [notice] 20#20: exit
+2023/05/21 14:34:21 [notice] 21#21: exiting
+2023/05/21 14:34:21 [notice] 21#21: exit
+2023/05/21 14:34:22 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/21 14:34:22 [notice] 1#1: worker process 20 exited with code 0
+2023/05/21 14:34:22 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 14:34:22 [notice] 1#1: exit
+2023/05/21 14:34:22 [notice] 1#1: using the "epoll" event method
+2023/05/21 14:34:22 [notice] 1#1: nginx/1.23.4
+2023/05/21 14:34:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 14:34:22 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 14:34:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 14:34:22 [notice] 1#1: start worker processes
+2023/05/21 14:34:22 [notice] 1#1: start worker process 21
+2023/05/21 14:34:22 [notice] 1#1: start worker process 22
+2023/05/21 14:34:51 [error] 22#22: *5 "/usr/share/nginx/html/static/index.html" is forbidden (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/ HTTP/1.1", host: "101.43.235.42:100"
+2023/05/21 14:39:25 [error] 22#22: *31 "/usr/share/nginx/html/static/index.html" is forbidden (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/ HTTP/1.1", host: "101.43.235.42:100"
+2023/05/21 14:39:50 [error] 22#22: *31 "/usr/share/nginx/html/static/index.html" is forbidden (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/ HTTP/1.1", host: "101.43.235.42:100"
+2023/05/21 14:41:56 [error] 22#22: *45 open() "/usr/share/nginx/html/static/js/jquery-3.6.1.min.js" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/js/jquery-3.6.1.min.js HTTP/1.1", host: "101.43.235.42:100"
+2023/05/21 14:41:59 [error] 22#22: *45 open() "/usr/share/nginx/html/static/js/jquery-3.6.1.min.js" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/js/jquery-3.6.1.min.js HTTP/1.1", host: "101.43.235.42:100"
+2023/05/21 14:49:34 [error] 22#22: *51 open() "/usr/share/nginx/html/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/plugins/bootstrap-3.4.1/css/bootstrap.min.css HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 14:49:34 [error] 22#22: *53 open() "/usr/share/nginx/html/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/plugins/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 14:49:34 [error] 21#21: *64 open() "/usr/share/nginx/html/static/js/jquery-3.6.1.min.js" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/js/jquery-3.6.1.min.js HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 14:49:34 [error] 21#21: *65 open() "/usr/share/nginx/html/static/plugins/bootstrap-3.4.1/js/bootstrap.min.js" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/plugins/bootstrap-3.4.1/js/bootstrap.min.js HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 15:08:30 [error] 21#21: *69 "/usr/share/nginx/html/static/index.html" is forbidden (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/ HTTP/1.1", host: "101.43.235.42:100"
+2023/05/21 15:09:05 [error] 21#21: *75 open() "/usr/share/nginx/html/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/plugins/bootstrap-3.4.1/css/bootstrap.min.css HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 15:09:05 [error] 21#21: *77 open() "/usr/share/nginx/html/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/plugins/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 15:09:05 [error] 21#21: *81 open() "/usr/share/nginx/html/static/js/jquery-3.6.1.min.js" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/js/jquery-3.6.1.min.js HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 15:09:05 [error] 21#21: *82 open() "/usr/share/nginx/html/static/plugins/bootstrap-3.4.1/js/bootstrap.min.js" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/plugins/bootstrap-3.4.1/js/bootstrap.min.js HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 15:09:11 [error] 21#21: *81 open() "/usr/share/nginx/html/static/plugins/bootstrap-3.4.1/css/bootstrap.min.css" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/plugins/bootstrap-3.4.1/css/bootstrap.min.css HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 15:09:11 [error] 21#21: *75 open() "/usr/share/nginx/html/static/js/jquery-3.6.1.min.js" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/js/jquery-3.6.1.min.js HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 15:09:11 [error] 21#21: *82 open() "/usr/share/nginx/html/static/plugins/font-awesome-4.7.0/css/font-awesome.min.css" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/plugins/font-awesome-4.7.0/css/font-awesome.min.css HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 15:09:11 [error] 21#21: *77 open() "/usr/share/nginx/html/static/plugins/bootstrap-3.4.1/js/bootstrap.min.js" failed (13: Permission denied), client: 124.130.86.55, server: localhost, request: "GET /static/plugins/bootstrap-3.4.1/js/bootstrap.min.js HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/admin/list/"
+2023/05/21 15:18:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 15:18:01 [notice] 21#21: gracefully shutting down
+2023/05/21 15:18:01 [notice] 22#22: gracefully shutting down
+2023/05/21 15:18:01 [notice] 21#21: exiting
+2023/05/21 15:18:01 [notice] 22#22: exiting
+2023/05/21 15:18:01 [notice] 21#21: exit
+2023/05/21 15:18:01 [notice] 22#22: exit
+2023/05/21 15:18:01 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2023/05/21 15:18:01 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 15:18:01 [notice] 1#1: worker process 22 exited with code 0
+2023/05/21 15:18:01 [notice] 1#1: exit
+2023/05/21 15:18:02 [notice] 1#1: using the "epoll" event method
+2023/05/21 15:18:02 [notice] 1#1: nginx/1.23.4
+2023/05/21 15:18:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 15:18:02 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 15:18:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 15:18:02 [notice] 1#1: start worker processes
+2023/05/21 15:18:02 [notice] 1#1: start worker process 20
+2023/05/21 15:18:02 [notice] 1#1: start worker process 21
+2023/05/21 15:26:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 15:26:55 [notice] 21#21: gracefully shutting down
+2023/05/21 15:26:55 [notice] 20#20: gracefully shutting down
+2023/05/21 15:26:55 [notice] 20#20: exiting
+2023/05/21 15:26:55 [notice] 21#21: exiting
+2023/05/21 15:26:55 [notice] 21#21: exit
+2023/05/21 15:26:55 [notice] 20#20: exit
+2023/05/21 15:26:55 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/05/21 15:26:55 [notice] 1#1: worker process 20 exited with code 0
+2023/05/21 15:26:55 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 15:26:55 [notice] 1#1: exit
+2023/05/21 15:26:56 [notice] 1#1: using the "epoll" event method
+2023/05/21 15:26:56 [notice] 1#1: nginx/1.23.4
+2023/05/21 15:26:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 15:26:56 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 15:26:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 15:26:56 [notice] 1#1: start worker processes
+2023/05/21 15:26:56 [notice] 1#1: start worker process 20
+2023/05/21 15:26:56 [notice] 1#1: start worker process 21
+2023/05/21 15:28:59 [warn] 20#20: *11 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 124.130.86.55, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/image/list/"
+2023/05/21 16:13:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/05/21 16:13:21 [notice] 21#21: gracefully shutting down
+2023/05/21 16:13:21 [notice] 20#20: gracefully shutting down
+2023/05/21 16:13:21 [notice] 21#21: exiting
+2023/05/21 16:13:21 [notice] 20#20: exiting
+2023/05/21 16:13:21 [notice] 20#20: exit
+2023/05/21 16:13:21 [notice] 21#21: exit
+2023/05/21 16:13:21 [notice] 1#1: signal 17 (SIGCHLD) received from 20
+2023/05/21 16:13:21 [notice] 1#1: worker process 20 exited with code 0
+2023/05/21 16:13:21 [notice] 1#1: signal 29 (SIGIO) received
+2023/05/21 16:13:21 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2023/05/21 16:13:21 [notice] 1#1: worker process 21 exited with code 0
+2023/05/21 16:13:21 [notice] 1#1: exit
+2023/05/21 16:17:14 [notice] 1#1: using the "epoll" event method
+2023/05/21 16:17:14 [notice] 1#1: nginx/1.23.4
+2023/05/21 16:17:14 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2023/05/21 16:17:14 [notice] 1#1: OS: Linux 5.10.0-19-amd64
+2023/05/21 16:17:14 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/05/21 16:17:14 [notice] 1#1: start worker processes
+2023/05/21 16:17:14 [notice] 1#1: start worker process 20
+2023/05/21 16:17:14 [notice] 1#1: start worker process 21
+2023/05/21 16:31:02 [warn] 21#21: *34 a client request body is buffered to a temporary file /var/cache/nginx/client_temp/0000000001, client: 124.130.86.55, server: localhost, request: "POST /image/add/ HTTP/1.1", host: "101.43.235.42:100", referrer: "http://101.43.235.42:100/image/list/"
